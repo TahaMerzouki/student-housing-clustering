@@ -1,6 +1,6 @@
 
 ```markdown
-# Accommodation Finder Project
+# Student Housing Project
 
 This project aims to help students find the best accommodation by clustering accommodations based on their amenities, budget, and proximity to preferred locations.
 
@@ -10,7 +10,6 @@ In this project, we utilize data analysis and machine learning techniques to cla
 
 ## Project Structure
 
-```
 project_name/
 │
 ├── data/                  # Folder for storing raw and processed data
@@ -77,6 +76,6 @@ We welcome contributions from the community. If you find any issues or have sugg
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License.
 
 ```
