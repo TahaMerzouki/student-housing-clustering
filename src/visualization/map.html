@@ -1,0 +1,1059 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_c6f98d65fa48a34784723110e842b5da {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_c6f98d65fa48a34784723110e842b5da" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_c6f98d65fa48a34784723110e842b5da = L.map(
+                "map_c6f98d65fa48a34784723110e842b5da",
+                {
+                    center: [42.105724, -80.053591],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_5bcafbaf5c97cd36b59480cbda0e80c9 = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors", "detectRetina": false, "maxNativeZoom": 19, "maxZoom": 19, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            );
+        
+    
+            tile_layer_5bcafbaf5c97cd36b59480cbda0e80c9.addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+            var circle_marker_5cf75b65c47ad95168ae8cdae119061a = L.circleMarker(
+                [42.12344, -80.077909],
+                {"bubblingMouseEvents": true, "color": "#526E5D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#526E5D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_e9e11b4b52934c7bcc26772eaa25f38d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_24c966a460fe271dfaa89094e44d71a2 = $(`<div id="html_24c966a460fe271dfaa89094e44d71a2" style="width: 100.0%; height: 100.0%;">recomended for: Minimal dining restaurants: 41 groceries: 6 region: PA</div>`)[0];
+                popup_e9e11b4b52934c7bcc26772eaa25f38d.setContent(html_24c966a460fe271dfaa89094e44d71a2);
+            
+        
+
+        circle_marker_5cf75b65c47ad95168ae8cdae119061a.bindPopup(popup_e9e11b4b52934c7bcc26772eaa25f38d)
+        ;
+
+        
+    
+    
+            var circle_marker_d00f1092752ee538d0b8af2ea8948101 = L.circleMarker(
+                [42.126495, -80.087438],
+                {"bubblingMouseEvents": true, "color": "#526E5D", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#526E5D", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_a8b0749f4fdc6c1dff5069bdb3eac258 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_5d0fb9f940e16a1f0937ab657270720e = $(`<div id="html_5d0fb9f940e16a1f0937ab657270720e" style="width: 100.0%; height: 100.0%;">recomended for: Minimal dining restaurants: 49 groceries: 5 region: PA</div>`)[0];
+                popup_a8b0749f4fdc6c1dff5069bdb3eac258.setContent(html_5d0fb9f940e16a1f0937ab657270720e);
+            
+        
+
+        circle_marker_d00f1092752ee538d0b8af2ea8948101.bindPopup(popup_a8b0749f4fdc6c1dff5069bdb3eac258)
+        ;
+
+        
+    
+    
+            var circle_marker_7b98436ee6609d83a4de01f518e36c08 = L.circleMarker(
+                [42.067218, -80.08973],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_41249ea47a56c7a565925eec7d80e960 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e9f89b74111a84e14c5c4a366c45979 = $(`<div id="html_0e9f89b74111a84e14c5c4a366c45979" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 26 groceries: 3 region: PA</div>`)[0];
+                popup_41249ea47a56c7a565925eec7d80e960.setContent(html_0e9f89b74111a84e14c5c4a366c45979);
+            
+        
+
+        circle_marker_7b98436ee6609d83a4de01f518e36c08.bindPopup(popup_41249ea47a56c7a565925eec7d80e960)
+        ;
+
+        
+    
+    
+            var circle_marker_78af1b1dd976c30780feafc2b08f42cb = L.circleMarker(
+                [42.091566, -79.296095],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_ca89655548d4b3ebba82162a5edbd23b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d50fc263973af4d7cbb6d84ff65ddd78 = $(`<div id="html_d50fc263973af4d7cbb6d84ff65ddd78" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 11 groceries: 3 region: NY</div>`)[0];
+                popup_ca89655548d4b3ebba82162a5edbd23b.setContent(html_d50fc263973af4d7cbb6d84ff65ddd78);
+            
+        
+
+        circle_marker_78af1b1dd976c30780feafc2b08f42cb.bindPopup(popup_ca89655548d4b3ebba82162a5edbd23b)
+        ;
+
+        
+    
+    
+            var circle_marker_178357d3177ac3c15e35f9a987a2a06b = L.circleMarker(
+                [42.109142, -79.287287],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_380c3e7ad29ceb51ec649eaea5903c09 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_506e19ee397a62e13ccfb9f9eab9e624 = $(`<div id="html_506e19ee397a62e13ccfb9f9eab9e624" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 1 groceries: 0 region: NY</div>`)[0];
+                popup_380c3e7ad29ceb51ec649eaea5903c09.setContent(html_506e19ee397a62e13ccfb9f9eab9e624);
+            
+        
+
+        circle_marker_178357d3177ac3c15e35f9a987a2a06b.bindPopup(popup_380c3e7ad29ceb51ec649eaea5903c09)
+        ;
+
+        
+    
+    
+            var circle_marker_60e822ed9ac06960eae14d0163277857 = L.circleMarker(
+                [42.085702, -79.271966],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_899bc51d109c19ddb83e070256cf785a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f52891d70b6b374d2178b965a649b4c9 = $(`<div id="html_f52891d70b6b374d2178b965a649b4c9" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_899bc51d109c19ddb83e070256cf785a.setContent(html_f52891d70b6b374d2178b965a649b4c9);
+            
+        
+
+        circle_marker_60e822ed9ac06960eae14d0163277857.bindPopup(popup_899bc51d109c19ddb83e070256cf785a)
+        ;
+
+        
+    
+    
+            var circle_marker_1d1ab8810e7cb03afd639773966188a1 = L.circleMarker(
+                [42.084717, -79.270243],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_1b019c599a03f1e86029170b10dc113a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_afdfd8140ba1d46e0408cc362cac74db = $(`<div id="html_afdfd8140ba1d46e0408cc362cac74db" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_1b019c599a03f1e86029170b10dc113a.setContent(html_afdfd8140ba1d46e0408cc362cac74db);
+            
+        
+
+        circle_marker_1d1ab8810e7cb03afd639773966188a1.bindPopup(popup_1b019c599a03f1e86029170b10dc113a)
+        ;
+
+        
+    
+    
+            var circle_marker_e7ee8ddf67361020d4e494cd8e0fff32 = L.circleMarker(
+                [42.096761, -79.260928],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_ef545ffedba0f1344d7d050d5f88e1da = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_732dc7c464ed4c3d11693641b3560e6d = $(`<div id="html_732dc7c464ed4c3d11693641b3560e6d" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 7 groceries: 2 region: NY</div>`)[0];
+                popup_ef545ffedba0f1344d7d050d5f88e1da.setContent(html_732dc7c464ed4c3d11693641b3560e6d);
+            
+        
+
+        circle_marker_e7ee8ddf67361020d4e494cd8e0fff32.bindPopup(popup_ef545ffedba0f1344d7d050d5f88e1da)
+        ;
+
+        
+    
+    
+            var circle_marker_c302225623f9786b019efd8eeb4e25be = L.circleMarker(
+                [42.09719, -79.245811],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_af7c25b753b8f933d863b2a0d25c282d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b1c871b9bb730e68eaef011ac9a6b9e2 = $(`<div id="html_b1c871b9bb730e68eaef011ac9a6b9e2" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 31 groceries: 2 region: NY</div>`)[0];
+                popup_af7c25b753b8f933d863b2a0d25c282d.setContent(html_b1c871b9bb730e68eaef011ac9a6b9e2);
+            
+        
+
+        circle_marker_c302225623f9786b019efd8eeb4e25be.bindPopup(popup_af7c25b753b8f933d863b2a0d25c282d)
+        ;
+
+        
+    
+    
+            var circle_marker_ed211c09900da15443465ce8a5e1dcd9 = L.circleMarker(
+                [42.096074, -79.24216],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_e726148e197ed8ccc9889e17c129c5ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4eb3fd722b56ff49439c5294e99ae289 = $(`<div id="html_4eb3fd722b56ff49439c5294e99ae289" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 28 groceries: 0 region: NY</div>`)[0];
+                popup_e726148e197ed8ccc9889e17c129c5ac.setContent(html_4eb3fd722b56ff49439c5294e99ae289);
+            
+        
+
+        circle_marker_ed211c09900da15443465ce8a5e1dcd9.bindPopup(popup_e726148e197ed8ccc9889e17c129c5ac)
+        ;
+
+        
+    
+    
+            var circle_marker_5c11c557abc6b6c72e16e4510fd26d6f = L.circleMarker(
+                [42.102334, -79.241042],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_a793177906d28d29d1db91203b5e8ca1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1b8b0bd50c7a608803868394bc4a24b5 = $(`<div id="html_1b8b0bd50c7a608803868394bc4a24b5" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 24 groceries: 1 region: NY</div>`)[0];
+                popup_a793177906d28d29d1db91203b5e8ca1.setContent(html_1b8b0bd50c7a608803868394bc4a24b5);
+            
+        
+
+        circle_marker_5c11c557abc6b6c72e16e4510fd26d6f.bindPopup(popup_a793177906d28d29d1db91203b5e8ca1)
+        ;
+
+        
+    
+    
+            var circle_marker_a7e37fc10c4f811bf7fd370b3fe24f14 = L.circleMarker(
+                [42.09603, -79.238945],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_34a362b575812d4e283f06b1642fd05b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_88c1ee61914be5126d157fec9fdaf417 = $(`<div id="html_88c1ee61914be5126d157fec9fdaf417" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 26 groceries: 0 region: NY</div>`)[0];
+                popup_34a362b575812d4e283f06b1642fd05b.setContent(html_88c1ee61914be5126d157fec9fdaf417);
+            
+        
+
+        circle_marker_a7e37fc10c4f811bf7fd370b3fe24f14.bindPopup(popup_34a362b575812d4e283f06b1642fd05b)
+        ;
+
+        
+    
+    
+            var circle_marker_4f57863f40e36b2140da758770fbf018 = L.circleMarker(
+                [42.095947, -79.237802],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_8c14748d5de1bf9370d5f709e111aefb = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ba87956e21858dd31a32503bc7bb11b = $(`<div id="html_4ba87956e21858dd31a32503bc7bb11b" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 26 groceries: 0 region: NY</div>`)[0];
+                popup_8c14748d5de1bf9370d5f709e111aefb.setContent(html_4ba87956e21858dd31a32503bc7bb11b);
+            
+        
+
+        circle_marker_4f57863f40e36b2140da758770fbf018.bindPopup(popup_8c14748d5de1bf9370d5f709e111aefb)
+        ;
+
+        
+    
+    
+            var circle_marker_67a8ffc27b6f651680c001a5b7577eff = L.circleMarker(
+                [42.083047, -79.23081],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_dc4f5393a36ec546b4dd87bd066682ac = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ecc2d9abdc04abfcea15600eb85afaa = $(`<div id="html_4ecc2d9abdc04abfcea15600eb85afaa" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 11 groceries: 1 region: NY</div>`)[0];
+                popup_dc4f5393a36ec546b4dd87bd066682ac.setContent(html_4ecc2d9abdc04abfcea15600eb85afaa);
+            
+        
+
+        circle_marker_67a8ffc27b6f651680c001a5b7577eff.bindPopup(popup_dc4f5393a36ec546b4dd87bd066682ac)
+        ;
+
+        
+    
+    
+            var circle_marker_f092aed350c708bcf0a385b4620df9be = L.circleMarker(
+                [42.104693, -79.225902],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_a3adbd82d3af92afba4856d36cfad665 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0166e471bd0067bf0a0cf69e07e4d432 = $(`<div id="html_0166e471bd0067bf0a0cf69e07e4d432" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 4 groceries: 0 region: NY</div>`)[0];
+                popup_a3adbd82d3af92afba4856d36cfad665.setContent(html_0166e471bd0067bf0a0cf69e07e4d432);
+            
+        
+
+        circle_marker_f092aed350c708bcf0a385b4620df9be.bindPopup(popup_a3adbd82d3af92afba4856d36cfad665)
+        ;
+
+        
+    
+    
+            var circle_marker_b77d5540370128f9f6b07765a6b29a6e = L.circleMarker(
+                [42.077214, -79.22296],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_748f1a26a133d3b1c879091ac7b5967a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0e5b30828c2fab4b9848adf678ac9960 = $(`<div id="html_0e5b30828c2fab4b9848adf678ac9960" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 10 groceries: 1 region: NY</div>`)[0];
+                popup_748f1a26a133d3b1c879091ac7b5967a.setContent(html_0e5b30828c2fab4b9848adf678ac9960);
+            
+        
+
+        circle_marker_b77d5540370128f9f6b07765a6b29a6e.bindPopup(popup_748f1a26a133d3b1c879091ac7b5967a)
+        ;
+
+        
+    
+    
+            var circle_marker_32495ed4c48490b703884bd488f96012 = L.circleMarker(
+                [42.09371, -79.213692],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_47e268b0549a97f96a2767de54a34d2d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_59069f4f51b20a1709ab3316dfb1d142 = $(`<div id="html_59069f4f51b20a1709ab3316dfb1d142" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_47e268b0549a97f96a2767de54a34d2d.setContent(html_59069f4f51b20a1709ab3316dfb1d142);
+            
+        
+
+        circle_marker_32495ed4c48490b703884bd488f96012.bindPopup(popup_47e268b0549a97f96a2767de54a34d2d)
+        ;
+
+        
+    
+    
+            var circle_marker_6ab4fc05f9718aa0929a6884cc139c88 = L.circleMarker(
+                [42.453166, -79.351607],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_9648feb8d9ce1f26988e879fbce1ed63 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_78b8e8756127d95d7196ae25ad5f5188 = $(`<div id="html_78b8e8756127d95d7196ae25ad5f5188" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_9648feb8d9ce1f26988e879fbce1ed63.setContent(html_78b8e8756127d95d7196ae25ad5f5188);
+            
+        
+
+        circle_marker_6ab4fc05f9718aa0929a6884cc139c88.bindPopup(popup_9648feb8d9ce1f26988e879fbce1ed63)
+        ;
+
+        
+    
+    
+            var circle_marker_bbbd313584e43c31d23d42ccfa132455 = L.circleMarker(
+                [42.446596, -79.34293],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_6db91a87434be25a807d753388d32938 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_cd231e9609c2e28916cc09980d7b7f6a = $(`<div id="html_cd231e9609c2e28916cc09980d7b7f6a" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 1 groceries: 0 region: NY</div>`)[0];
+                popup_6db91a87434be25a807d753388d32938.setContent(html_cd231e9609c2e28916cc09980d7b7f6a);
+            
+        
+
+        circle_marker_bbbd313584e43c31d23d42ccfa132455.bindPopup(popup_6db91a87434be25a807d753388d32938)
+        ;
+
+        
+    
+    
+            var circle_marker_bfbf0b597dbee58af0180f9426bb54e0 = L.circleMarker(
+                [42.453944, -79.347767],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_25c3849dc65a613fa9c6501daf4cfedc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3b58dc36233ec6855458ccf462fa1d25 = $(`<div id="html_3b58dc36233ec6855458ccf462fa1d25" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_25c3849dc65a613fa9c6501daf4cfedc.setContent(html_3b58dc36233ec6855458ccf462fa1d25);
+            
+        
+
+        circle_marker_bfbf0b597dbee58af0180f9426bb54e0.bindPopup(popup_25c3849dc65a613fa9c6501daf4cfedc)
+        ;
+
+        
+    
+    
+            var circle_marker_4458a0c217cbbb744e8c5a72b106a2ae = L.circleMarker(
+                [42.455619, -79.348348],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_14bac4a6bd6bb6f263665f35de1f2d1a = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d13c5f185211e0d398707851aee307fc = $(`<div id="html_d13c5f185211e0d398707851aee307fc" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_14bac4a6bd6bb6f263665f35de1f2d1a.setContent(html_d13c5f185211e0d398707851aee307fc);
+            
+        
+
+        circle_marker_4458a0c217cbbb744e8c5a72b106a2ae.bindPopup(popup_14bac4a6bd6bb6f263665f35de1f2d1a)
+        ;
+
+        
+    
+    
+            var circle_marker_7d7f2fafd0027e5c9ee5e8254214aa5a = L.circleMarker(
+                [42.442848, -79.335834],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_00622b6ac5afceddf68396852296e71d = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_87dbd1c56e6d8d2e886dbef7f493ccd2 = $(`<div id="html_87dbd1c56e6d8d2e886dbef7f493ccd2" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 16 groceries: 2 region: NY</div>`)[0];
+                popup_00622b6ac5afceddf68396852296e71d.setContent(html_87dbd1c56e6d8d2e886dbef7f493ccd2);
+            
+        
+
+        circle_marker_7d7f2fafd0027e5c9ee5e8254214aa5a.bindPopup(popup_00622b6ac5afceddf68396852296e71d)
+        ;
+
+        
+    
+    
+            var circle_marker_902898d4a3e5a33d84b245dd947d7d71 = L.circleMarker(
+                [42.431414, -79.326266],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_23c824e9e7d351f4f7be00231f35c8d9 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b9719b0fe741ed703e0a23b39f6ccf68 = $(`<div id="html_b9719b0fe741ed703e0a23b39f6ccf68" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 7 groceries: 0 region: NY</div>`)[0];
+                popup_23c824e9e7d351f4f7be00231f35c8d9.setContent(html_b9719b0fe741ed703e0a23b39f6ccf68);
+            
+        
+
+        circle_marker_902898d4a3e5a33d84b245dd947d7d71.bindPopup(popup_23c824e9e7d351f4f7be00231f35c8d9)
+        ;
+
+        
+    
+    
+            var circle_marker_3b4b56eed2d6ca29a075465159f33bdf = L.circleMarker(
+                [42.453288, -79.336234],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_e380c54c175d0cf69763a586c2589405 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_13a989f95e84d409f1c962e58452f2ac = $(`<div id="html_13a989f95e84d409f1c962e58452f2ac" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_e380c54c175d0cf69763a586c2589405.setContent(html_13a989f95e84d409f1c962e58452f2ac);
+            
+        
+
+        circle_marker_3b4b56eed2d6ca29a075465159f33bdf.bindPopup(popup_e380c54c175d0cf69763a586c2589405)
+        ;
+
+        
+    
+    
+            var circle_marker_87652a159db9b65392270b6dc053fdf3 = L.circleMarker(
+                [42.44822, -79.338129],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_28177933bc3fead30a31e237b6013187 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e7e1923ba1ebf3e27649619357e4a5e9 = $(`<div id="html_e7e1923ba1ebf3e27649619357e4a5e9" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 2 groceries: 2 region: NY</div>`)[0];
+                popup_28177933bc3fead30a31e237b6013187.setContent(html_e7e1923ba1ebf3e27649619357e4a5e9);
+            
+        
+
+        circle_marker_87652a159db9b65392270b6dc053fdf3.bindPopup(popup_28177933bc3fead30a31e237b6013187)
+        ;
+
+        
+    
+    
+            var circle_marker_9a54f126be617147567c517ca8493ba0 = L.circleMarker(
+                [42.449515, -79.338605],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_1dc1dcf9c246505a7b47c237554a3399 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d7b903e648c55b72c14d330887c6bf8e = $(`<div id="html_d7b903e648c55b72c14d330887c6bf8e" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 1 groceries: 0 region: NY</div>`)[0];
+                popup_1dc1dcf9c246505a7b47c237554a3399.setContent(html_d7b903e648c55b72c14d330887c6bf8e);
+            
+        
+
+        circle_marker_9a54f126be617147567c517ca8493ba0.bindPopup(popup_1dc1dcf9c246505a7b47c237554a3399)
+        ;
+
+        
+    
+    
+            var circle_marker_2567bfb5ff8f4ed9ddff4d9e4ba4eb1e = L.circleMarker(
+                [42.120373, -79.201178],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_1ab62a124af0ac92e9068f98bbbe1bbe = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c59dff34d723370473eb8a6c9ec136e3 = $(`<div id="html_c59dff34d723370473eb8a6c9ec136e3" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 7 groceries: 1 region: NY</div>`)[0];
+                popup_1ab62a124af0ac92e9068f98bbbe1bbe.setContent(html_c59dff34d723370473eb8a6c9ec136e3);
+            
+        
+
+        circle_marker_2567bfb5ff8f4ed9ddff4d9e4ba4eb1e.bindPopup(popup_1ab62a124af0ac92e9068f98bbbe1bbe)
+        ;
+
+        
+    
+    
+            var circle_marker_6530c522f4d5f54f157e97355c754909 = L.circleMarker(
+                [42.439398, -79.326144],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_361325d9af35cc2a30893c7db886a583 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_a000d07b0c5eeb83794cff01ea69e552 = $(`<div id="html_a000d07b0c5eeb83794cff01ea69e552" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 16 groceries: 2 region: NY</div>`)[0];
+                popup_361325d9af35cc2a30893c7db886a583.setContent(html_a000d07b0c5eeb83794cff01ea69e552);
+            
+        
+
+        circle_marker_6530c522f4d5f54f157e97355c754909.bindPopup(popup_361325d9af35cc2a30893c7db886a583)
+        ;
+
+        
+    
+    
+            var circle_marker_f70ad67609cc0f2bf4d39b8108ad385d = L.circleMarker(
+                [42.125118, -79.198873],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_2ca188e358c9a52f9ea7e5b377de1d21 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4ce0b877ea64cd0fea6f71a914c4da7c = $(`<div id="html_4ce0b877ea64cd0fea6f71a914c4da7c" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 4 groceries: 1 region: NY</div>`)[0];
+                popup_2ca188e358c9a52f9ea7e5b377de1d21.setContent(html_4ce0b877ea64cd0fea6f71a914c4da7c);
+            
+        
+
+        circle_marker_f70ad67609cc0f2bf4d39b8108ad385d.bindPopup(popup_2ca188e358c9a52f9ea7e5b377de1d21)
+        ;
+
+        
+    
+    
+            var circle_marker_a9d1dd76e523d840a880ce95c1ab501c = L.circleMarker(
+                [42.448442, -79.32974],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_6dcb6b54367cf3472377d4bb02c530f5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_0645bff040d71d06d381d96235b96ef7 = $(`<div id="html_0645bff040d71d06d381d96235b96ef7" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 6 groceries: 2 region: NY</div>`)[0];
+                popup_6dcb6b54367cf3472377d4bb02c530f5.setContent(html_0645bff040d71d06d381d96235b96ef7);
+            
+        
+
+        circle_marker_a9d1dd76e523d840a880ce95c1ab501c.bindPopup(popup_6dcb6b54367cf3472377d4bb02c530f5)
+        ;
+
+        
+    
+    
+            var circle_marker_53378f93905cab1c2bda2451f69c7ef1 = L.circleMarker(
+                [42.482616, -79.328373],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_b013763785cb58b4b030e20df394c89b = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_04e0b8b8b40bd6f7571e24df7b3565e9 = $(`<div id="html_04e0b8b8b40bd6f7571e24df7b3565e9" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 14 groceries: 5 region: NY</div>`)[0];
+                popup_b013763785cb58b4b030e20df394c89b.setContent(html_04e0b8b8b40bd6f7571e24df7b3565e9);
+            
+        
+
+        circle_marker_53378f93905cab1c2bda2451f69c7ef1.bindPopup(popup_b013763785cb58b4b030e20df394c89b)
+        ;
+
+        
+    
+    
+            var circle_marker_b6ed4b8a8959badcfb9be7e50ab8fb50 = L.circleMarker(
+                [41.868906, -79.145955],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_7ba47ec9af6aa8c0596961fe72371ea5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3cbbfce503627830ce67f57c14bc6bae = $(`<div id="html_3cbbfce503627830ce67f57c14bc6bae" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 5 groceries: 1 region: PA</div>`)[0];
+                popup_7ba47ec9af6aa8c0596961fe72371ea5.setContent(html_3cbbfce503627830ce67f57c14bc6bae);
+            
+        
+
+        circle_marker_b6ed4b8a8959badcfb9be7e50ab8fb50.bindPopup(popup_7ba47ec9af6aa8c0596961fe72371ea5)
+        ;
+
+        
+    
+    
+            var circle_marker_faba5cf2c39daebd592b2403941e5bc8 = L.circleMarker(
+                [41.850341, -79.146343],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_96431bfdedac650d407ccf1469628e6f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_8290f5b81a9d2798aca8fa250f49b6e5 = $(`<div id="html_8290f5b81a9d2798aca8fa250f49b6e5" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 19 groceries: 4 region: PA</div>`)[0];
+                popup_96431bfdedac650d407ccf1469628e6f.setContent(html_8290f5b81a9d2798aca8fa250f49b6e5);
+            
+        
+
+        circle_marker_faba5cf2c39daebd592b2403941e5bc8.bindPopup(popup_96431bfdedac650d407ccf1469628e6f)
+        ;
+
+        
+    
+    
+            var circle_marker_6a4aed8a80726249bde3449edff100ff = L.circleMarker(
+                [41.841748, -79.140372],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_9bf886c1a80070488c22e3d2251f84ba = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_d34815766f5c5980a5f247e95cfd7984 = $(`<div id="html_d34815766f5c5980a5f247e95cfd7984" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 24 groceries: 3 region: PA</div>`)[0];
+                popup_9bf886c1a80070488c22e3d2251f84ba.setContent(html_d34815766f5c5980a5f247e95cfd7984);
+            
+        
+
+        circle_marker_6a4aed8a80726249bde3449edff100ff.bindPopup(popup_9bf886c1a80070488c22e3d2251f84ba)
+        ;
+
+        
+    
+    
+            var circle_marker_de1f017f5bd254612e240f73ae8a7d04 = L.circleMarker(
+                [41.843536, -79.134575],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_391769d7aa4fb21b96e9a91988564240 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_e986d769099a55ef3b2c19ff9efdff08 = $(`<div id="html_e986d769099a55ef3b2c19ff9efdff08" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 14 groceries: 3 region: PA</div>`)[0];
+                popup_391769d7aa4fb21b96e9a91988564240.setContent(html_e986d769099a55ef3b2c19ff9efdff08);
+            
+        
+
+        circle_marker_de1f017f5bd254612e240f73ae8a7d04.bindPopup(popup_391769d7aa4fb21b96e9a91988564240)
+        ;
+
+        
+    
+    
+            var circle_marker_bd81bdd5ad4a10c44bb7def408131bf8 = L.circleMarker(
+                [42.840504, -80.329951],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_4c622a22f1ce7e6684bdaa8bd55bc2cc = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_3418d1fe13cee165bfabcee4f2310b4f = $(`<div id="html_3418d1fe13cee165bfabcee4f2310b4f" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 2 groceries: 0 region: ON</div>`)[0];
+                popup_4c622a22f1ce7e6684bdaa8bd55bc2cc.setContent(html_3418d1fe13cee165bfabcee4f2310b4f);
+            
+        
+
+        circle_marker_bd81bdd5ad4a10c44bb7def408131bf8.bindPopup(popup_4c622a22f1ce7e6684bdaa8bd55bc2cc)
+        ;
+
+        
+    
+    
+            var circle_marker_9b15cf2451b886483411812cbfb8efdd = L.circleMarker(
+                [42.538012, -78.995522],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_b9f4194b7ddd5b87cbd474db922234b5 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_481c1dc64fec965b99cbafa7636a1151 = $(`<div id="html_481c1dc64fec965b99cbafa7636a1151" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_b9f4194b7ddd5b87cbd474db922234b5.setContent(html_481c1dc64fec965b99cbafa7636a1151);
+            
+        
+
+        circle_marker_9b15cf2451b886483411812cbfb8efdd.bindPopup(popup_b9f4194b7ddd5b87cbd474db922234b5)
+        ;
+
+        
+    
+    
+            var circle_marker_96c07b837a98994b93c75ac278b9e0ae = L.circleMarker(
+                [42.09806, -79.232207],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_b52371a59935bc532b0efe46f9c78d62 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_fb6661be39b508a4588991b826455a9c = $(`<div id="html_fb6661be39b508a4588991b826455a9c" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 20 groceries: 0 region: NY</div>`)[0];
+                popup_b52371a59935bc532b0efe46f9c78d62.setContent(html_fb6661be39b508a4588991b826455a9c);
+            
+        
+
+        circle_marker_96c07b837a98994b93c75ac278b9e0ae.bindPopup(popup_b52371a59935bc532b0efe46f9c78d62)
+        ;
+
+        
+    
+    
+            var circle_marker_b4449de0882134cb029fe0bbfc40a6a3 = L.circleMarker(
+                [42.093684, -79.224804],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_8c5de411e82585aae8caf3331f39d314 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_115d7d0c1d4891ece416df6cd5c1d8d9 = $(`<div id="html_115d7d0c1d4891ece416df6cd5c1d8d9" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 1 groceries: 0 region: NY</div>`)[0];
+                popup_8c5de411e82585aae8caf3331f39d314.setContent(html_115d7d0c1d4891ece416df6cd5c1d8d9);
+            
+        
+
+        circle_marker_b4449de0882134cb029fe0bbfc40a6a3.bindPopup(popup_8c5de411e82585aae8caf3331f39d314)
+        ;
+
+        
+    
+    
+            var circle_marker_47841718f210bd815b01e71a4ba47d5c = L.circleMarker(
+                [42.071202, -79.21224],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_451a3f0a53583dcaf47b4e856449d0a2 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_edc343a5c462f02e3c9a9617b2f02950 = $(`<div id="html_edc343a5c462f02e3c9a9617b2f02950" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_451a3f0a53583dcaf47b4e856449d0a2.setContent(html_edc343a5c462f02e3c9a9617b2f02950);
+            
+        
+
+        circle_marker_47841718f210bd815b01e71a4ba47d5c.bindPopup(popup_451a3f0a53583dcaf47b4e856449d0a2)
+        ;
+
+        
+    
+    
+            var circle_marker_9bc69ea9d69f20b674b73a81e5ee8203 = L.circleMarker(
+                [42.431414, -79.326266],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_ee3af180c161054dee13ff022ab8d2c3 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_f5353400feaf3c356024faaee501a4b6 = $(`<div id="html_f5353400feaf3c356024faaee501a4b6" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 7 groceries: 0 region: NY</div>`)[0];
+                popup_ee3af180c161054dee13ff022ab8d2c3.setContent(html_f5353400feaf3c356024faaee501a4b6);
+            
+        
+
+        circle_marker_9bc69ea9d69f20b674b73a81e5ee8203.bindPopup(popup_ee3af180c161054dee13ff022ab8d2c3)
+        ;
+
+        
+    
+    
+            var circle_marker_6bd1269975359b5543210df87901008f = L.circleMarker(
+                [41.868913, -79.14663],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_a946c309d1bdf41ed3a25fefa2947551 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_98541dc7aaa26baa1251e60e15d92c8a = $(`<div id="html_98541dc7aaa26baa1251e60e15d92c8a" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 5 groceries: 1 region: PA</div>`)[0];
+                popup_a946c309d1bdf41ed3a25fefa2947551.setContent(html_98541dc7aaa26baa1251e60e15d92c8a);
+            
+        
+
+        circle_marker_6bd1269975359b5543210df87901008f.bindPopup(popup_a946c309d1bdf41ed3a25fefa2947551)
+        ;
+
+        
+    
+    
+            var circle_marker_1312dba4cf6578b47ed35f02324048a8 = L.circleMarker(
+                [42.159744, -78.990338],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_2a2294d3da1e6ddadcedc3ea66230801 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_7588ca74a6536b35eb5c2029e7c702f3 = $(`<div id="html_7588ca74a6536b35eb5c2029e7c702f3" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 1 region: NY</div>`)[0];
+                popup_2a2294d3da1e6ddadcedc3ea66230801.setContent(html_7588ca74a6536b35eb5c2029e7c702f3);
+            
+        
+
+        circle_marker_1312dba4cf6578b47ed35f02324048a8.bindPopup(popup_2a2294d3da1e6ddadcedc3ea66230801)
+        ;
+
+        
+    
+    
+            var circle_marker_132931ec9ba633518ad70eb71a0950b5 = L.circleMarker(
+                [42.162103, -78.974717],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_b052e0cdae74e1a2956eec9c7e4cc13f = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_c470abdcaa06b8061252d914e27572ac = $(`<div id="html_c470abdcaa06b8061252d914e27572ac" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 2 region: NY</div>`)[0];
+                popup_b052e0cdae74e1a2956eec9c7e4cc13f.setContent(html_c470abdcaa06b8061252d914e27572ac);
+            
+        
+
+        circle_marker_132931ec9ba633518ad70eb71a0950b5.bindPopup(popup_b052e0cdae74e1a2956eec9c7e4cc13f)
+        ;
+
+        
+    
+    
+            var circle_marker_c556fec14e0e5bbc62a528aec91749ae = L.circleMarker(
+                [42.587424, -79.13028],
+                {"bubblingMouseEvents": true, "color": "#401E83", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#401E83", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_e69b56e0222c865965cf9524ecbdcf08 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_1626f25dca27107ab5212f8a5960e7f6 = $(`<div id="html_1626f25dca27107ab5212f8a5960e7f6" style="width: 100.0%; height: 100.0%;">recomended for: Moderate dining restaurants: 0 groceries: 0 region: NY</div>`)[0];
+                popup_e69b56e0222c865965cf9524ecbdcf08.setContent(html_1626f25dca27107ab5212f8a5960e7f6);
+            
+        
+
+        circle_marker_c556fec14e0e5bbc62a528aec91749ae.bindPopup(popup_e69b56e0222c865965cf9524ecbdcf08)
+        ;
+
+        
+    
+    
+            var circle_marker_ad51fef3bdac85725972c619835a33e7 = L.circleMarker(
+                [42.924649, -80.282781],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_aa53a49d0a2a691c25bf602580613134 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_4cfb990430825c9194a9373195d4a1dd = $(`<div id="html_4cfb990430825c9194a9373195d4a1dd" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 6 groceries: 3 region: ON</div>`)[0];
+                popup_aa53a49d0a2a691c25bf602580613134.setContent(html_4cfb990430825c9194a9373195d4a1dd);
+            
+        
+
+        circle_marker_ad51fef3bdac85725972c619835a33e7.bindPopup(popup_aa53a49d0a2a691c25bf602580613134)
+        ;
+
+        
+    
+    
+            var circle_marker_fa04942e4042ed8b40d96584722f2b2b = L.circleMarker(
+                [42.902421, -79.614836],
+                {"bubblingMouseEvents": true, "color": "#50DB7F", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#50DB7F", "fillOpacity": 0.6, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 10, "stroke": true, "weight": 3}
+            ).addTo(map_c6f98d65fa48a34784723110e842b5da);
+        
+    
+        var popup_8b82edc09f135f81644b2da243054fe1 = L.popup({"maxWidth": "100%"});
+
+        
+            
+                var html_b02a83a440a70de17008836889d63da8 = $(`<div id="html_b02a83a440a70de17008836889d63da8" style="width: 100.0%; height: 100.0%;">recomended for: Frequent dining restaurants: 19 groceries: 2 region: ON</div>`)[0];
+                popup_8b82edc09f135f81644b2da243054fe1.setContent(html_b02a83a440a70de17008836889d63da8);
+            
+        
+
+        circle_marker_fa04942e4042ed8b40d96584722f2b2b.bindPopup(popup_8b82edc09f135f81644b2da243054fe1)
+        ;
+
+        
+    
+</script>
+</html>
