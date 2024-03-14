@@ -20,7 +20,7 @@ class MapPlotter():
         for ind in df_loc.index:
             lat=df_loc.iloc[ind][0]
             long=df_loc.iloc[ind][1]
-            color=colors[loc_labels[ind]]
+            color=colors[loc_labels.iloc[ind]]
             #popup = df_info.iloc[ind]
             popup = popups.iloc[ind]
             folium.CircleMarker(
